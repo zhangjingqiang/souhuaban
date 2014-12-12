@@ -2,14 +2,20 @@
 搜花瓣
 =======
 
-简介
------
+# 简介
 
 搜索花瓣网站。
 
-使用Python|Django开发。
+使用 Python & Django 开发。
 
-版权
------
+# 安装
 
-基于[MIT](http://opensource.org/licenses/MIT)协议。
+```python
+$ mkvirtualenv souhuaban
+$ pip install -r requirements.txt
+$ python manage.py runserver 0.0.0.0:8080
+```
+
+# 许可
+
+基于 [MIT](http://opensource.org/licenses/MIT) 协议。
